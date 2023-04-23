@@ -24,6 +24,6 @@ cd ../../../
 
 # 执行脚本 将源代码上传到github上面
 git add .
-git commit -m '上传源代码'
+git commit -m '17:05 上传源代码'
 git pull
 git push
