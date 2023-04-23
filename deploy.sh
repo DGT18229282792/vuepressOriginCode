@@ -27,6 +27,6 @@ cd ../../../
 # 执行脚本 将源代码上传到github上面
 git add .
 export origin_current_time=$(date "+%Y/%m/%d %H:%M:%S")
-git commit -m "'修改源码', Author: $(git config user.name), Time: $origin_current_time"
+git commit -m "'DGT修改源码', Author: $(git config user.name), Time: $origin_current_time"
 git pull
 git push
