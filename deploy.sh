@@ -10,7 +10,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-echo "%date:~0,4%/%date:~5,2%/%date:~8,2% %time:~0,2%:%time:~3,2%:%time:~6,2%"
+echo %date:~0,4%/%date:~5,2%/%date:~8,2% %time:~0,2%:%time:~3,2%:%time:~6,2%
 git commit -m '2023/4/23  打包构建发布'
 
 # 推到你仓库的的 gh-page 分支
