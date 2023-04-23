@@ -21,19 +21,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-7161141e",
-    path: "/guide/info/resume.html",
+    name: "v-e4588252",
+    path: "/guide/utils/utils.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7161141e").then(next)
-    },
-  },
-  {
-    name: "v-69525104",
-    path: "/guide/2.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-69525104").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-e4588252").then(next)
     },
   },
   {
@@ -45,11 +37,19 @@ export const routes = [
     },
   },
   {
-    name: "v-e4588252",
-    path: "/guide/utils/utils.html",
+    name: "v-69525104",
+    path: "/guide/2.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e4588252").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-69525104").then(next)
+    },
+  },
+  {
+    name: "v-7161141e",
+    path: "/guide/info/resume.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7161141e").then(next)
     },
   },
   {

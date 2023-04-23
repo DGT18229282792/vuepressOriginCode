@@ -14,7 +14,49 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-b2589aac",
-      "path": "/"
+      "path": "/",
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
+    },
+    {
+      "title": "积累的工具",
+      "frontmatter": {
+        "sidebarDepth": "1,",
+        "sidebar": "auto"
+      },
+      "regularPath": "/guide/utils/utils.html",
+      "relativePath": "guide/utils/utils.md",
+      "key": "v-e4588252",
+      "path": "/guide/utils/utils.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "积累的工具",
+          "slug": "积累的工具"
+        }
+      ],
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
+    },
+    {
+      "title": "Hello 1",
+      "frontmatter": {},
+      "regularPath": "/guide/1.html",
+      "relativePath": "guide/1.md",
+      "key": "v-16f39a64",
+      "path": "/guide/1.html",
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
+    },
+    {
+      "title": "Hello 2",
+      "frontmatter": {},
+      "regularPath": "/guide/2.html",
+      "relativePath": "guide/2.md",
+      "key": "v-69525104",
+      "path": "/guide/2.html",
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
     },
     {
       "frontmatter": {
@@ -56,41 +98,9 @@ export const siteData = {
           "title": "个人账号",
           "slug": "个人账号"
         }
-      ]
-    },
-    {
-      "title": "Hello 2",
-      "frontmatter": {},
-      "regularPath": "/guide/2.html",
-      "relativePath": "guide/2.md",
-      "key": "v-69525104",
-      "path": "/guide/2.html"
-    },
-    {
-      "title": "Hello 1",
-      "frontmatter": {},
-      "regularPath": "/guide/1.html",
-      "relativePath": "guide/1.md",
-      "key": "v-16f39a64",
-      "path": "/guide/1.html"
-    },
-    {
-      "title": "积累的工具",
-      "frontmatter": {
-        "sidebarDepth": "1,",
-        "sidebar": "auto"
-      },
-      "regularPath": "/guide/utils/utils.html",
-      "relativePath": "guide/utils/utils.md",
-      "key": "v-e4588252",
-      "path": "/guide/utils/utils.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "积累的工具",
-          "slug": "积累的工具"
-        }
-      ]
+      ],
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
     }
   ],
   "themeConfig": {
@@ -116,7 +126,7 @@ export const siteData = {
           "collapsable": true,
           "children": [
             {
-              "title": "去掉全部console测试",
+              "title": "去掉全部console",
               "path": "/guide/1.md"
             }
           ]

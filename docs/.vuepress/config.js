@@ -16,7 +16,7 @@ module.exports = {
                     collapsable: true, //是否折叠
                     children: [
                         {
-                            title: '去掉全部console测试',
+                            title: '去掉全部console',
                             path: '/guide/1.md',
                         }
 
