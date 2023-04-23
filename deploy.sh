@@ -10,8 +10,11 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-echo %date:~0,4%/%date:~5,2%/%date:~8,2% %time:~0,2%:%time:~3,2%:%time:~6,2%
-git commit -m '2023/4/23  打包构建发布'
+export current_time=$(date "+%Y/%m/%d %H:%M:%S")
+
+git commit -m "Your commit message, Author: $(git config user.name), Time: $current_time"
+
+# git commit -m '2023/4/23  打包构建发布'
 
 # 推到你仓库的的 gh-page 分支
 # 将 <USERNAME>/<REPO> 替换为你的信息
