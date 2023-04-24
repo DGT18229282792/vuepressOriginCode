@@ -4,6 +4,7 @@ module.exports = {
     base: '/studyspace/', // 设置为github仓库地址，用来部署到github pages
     themeConfig: {
         lastUpdated: '最后更新时间', // string | boolean
+        sidebarDepth: 2,
         nav: [
             { text: '首页', link: '/' },
             { text: '个人简历', link: '/guide/info/resume/' },

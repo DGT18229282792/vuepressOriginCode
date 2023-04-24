@@ -8,18 +8,8 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "Hello 1",
-      "frontmatter": {},
-      "regularPath": "/guide/1.html",
-      "relativePath": "guide/1.md",
-      "key": "v-16f39a64",
-      "path": "/guide/1.html",
-      "lastUpdated": "4/23/2023, 4:33:55 PM",
-      "lastUpdatedTimestamp": 1682238835000
-    },
-    {
       "frontmatter": {
-        "sidebarDepth": 1
+        "sidebarDepth": 2
       },
       "regularPath": "/",
       "relativePath": "README.md",
@@ -33,7 +23,9 @@ export const siteData = {
       "regularPath": "/guide/utils/sdk.html",
       "relativePath": "guide/utils/sdk.md",
       "key": "v-6304fdf7",
-      "path": "/guide/utils/sdk.html"
+      "path": "/guide/utils/sdk.html",
+      "lastUpdated": "4/24/2023, 3:37:50 PM",
+      "lastUpdatedTimestamp": 1682321870000
     },
     {
       "title": "积累的工具",
@@ -108,10 +100,21 @@ export const siteData = {
       ],
       "lastUpdated": "4/23/2023, 5:02:05 PM",
       "lastUpdatedTimestamp": 1682240525000
+    },
+    {
+      "title": "Hello 1",
+      "frontmatter": {},
+      "regularPath": "/guide/1.html",
+      "relativePath": "guide/1.md",
+      "key": "v-16f39a64",
+      "path": "/guide/1.html",
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
     }
   ],
   "themeConfig": {
     "lastUpdated": "最后更新时间",
+    "sidebarDepth": 2,
     "nav": [
       {
         "text": "首页",

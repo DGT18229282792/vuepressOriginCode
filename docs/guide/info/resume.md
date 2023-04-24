@@ -4,7 +4,7 @@ sidebar: auto
 ---
  
  <center>
-     <h1>简历2</h1>
+     <h1>简历</h1>
  </center>
 
 
