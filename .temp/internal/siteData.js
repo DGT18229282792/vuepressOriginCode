@@ -8,44 +8,23 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "frontmatter": {
-        "sidebarDepth": 2
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-b2589aac",
-      "path": "/",
+      "title": "Hello 1",
+      "frontmatter": {},
+      "regularPath": "/guide/1.html",
+      "relativePath": "guide/1.md",
+      "key": "v-16f39a64",
+      "path": "/guide/1.html",
       "lastUpdated": "4/23/2023, 4:33:55 PM",
       "lastUpdatedTimestamp": 1682238835000
     },
     {
       "frontmatter": {},
-      "regularPath": "/guide/utils/sdk.html",
-      "relativePath": "guide/utils/sdk.md",
-      "key": "v-6304fdf7",
-      "path": "/guide/utils/sdk.html",
-      "lastUpdated": "4/24/2023, 3:37:50 PM",
-      "lastUpdatedTimestamp": 1682321870000
-    },
-    {
-      "title": "积累的工具",
-      "frontmatter": {
-        "sidebarDepth": "1,",
-        "sidebar": "auto"
-      },
-      "regularPath": "/guide/utils/utils.html",
-      "relativePath": "guide/utils/utils.md",
-      "key": "v-e4588252",
-      "path": "/guide/utils/utils.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "积累的工具",
-          "slug": "积累的工具"
-        }
-      ],
-      "lastUpdated": "4/23/2023, 4:33:55 PM",
-      "lastUpdatedTimestamp": 1682238835000
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-b2589aac",
+      "path": "/",
+      "lastUpdated": "4/24/2023, 3:53:16 PM",
+      "lastUpdatedTimestamp": 1682322796000
     },
     {
       "title": "Hello 2",
@@ -98,18 +77,65 @@ export const siteData = {
           "slug": "个人账号"
         }
       ],
-      "lastUpdated": "4/23/2023, 5:02:05 PM",
-      "lastUpdatedTimestamp": 1682240525000
+      "lastUpdated": "4/24/2023, 3:53:16 PM",
+      "lastUpdatedTimestamp": 1682322796000
     },
     {
-      "title": "Hello 1",
       "frontmatter": {},
-      "regularPath": "/guide/1.html",
-      "relativePath": "guide/1.md",
-      "key": "v-16f39a64",
-      "path": "/guide/1.html",
+      "regularPath": "/guide/utils/sdk.html",
+      "relativePath": "guide/utils/sdk.md",
+      "key": "v-6304fdf7",
+      "path": "/guide/utils/sdk.html",
+      "lastUpdated": "4/24/2023, 3:37:50 PM",
+      "lastUpdatedTimestamp": 1682321870000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/info/intro.html",
+      "relativePath": "guide/info/intro.md",
+      "key": "v-4a7eaffe",
+      "path": "/guide/info/intro.html"
+    },
+    {
+      "title": "积累的工具",
+      "frontmatter": {
+        "sidebarDepth": "1,",
+        "sidebar": "auto"
+      },
+      "regularPath": "/guide/utils/utils.html",
+      "relativePath": "guide/utils/utils.md",
+      "key": "v-e4588252",
+      "path": "/guide/utils/utils.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "积累的工具",
+          "slug": "积累的工具"
+        }
+      ],
       "lastUpdated": "4/23/2023, 4:33:55 PM",
       "lastUpdatedTimestamp": 1682238835000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/utils/",
+      "relativePath": "guide/utils/index.md",
+      "key": "v-8c7f1620",
+      "path": "/guide/utils/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/clis/DGT-cli.html",
+      "relativePath": "guide/clis/DGT-cli.md",
+      "key": "v-0bb22a87",
+      "path": "/guide/clis/DGT-cli.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/clis/npm.html",
+      "relativePath": "guide/clis/npm.md",
+      "key": "v-7fd140b9",
+      "path": "/guide/clis/npm.html"
     }
   ],
   "themeConfig": {
@@ -133,11 +159,32 @@ export const siteData = {
       "/": [
         {
           "title": "plugins",
-          "collapsable": true,
+          "collapsable": false,
           "children": [
             {
               "title": "前端监控埋点实践",
               "path": "/guide/utils/sdk.md"
+            }
+          ]
+        },
+        {
+          "title": "脚手架",
+          "collapsable": false,
+          "children": [
+            {
+              "title": "一个简易的脚手架",
+              "path": "/guide/clis/DGT-cli.md"
+            }
+          ]
+        },
+        {
+          "title": "npm插件",
+          "collapsable": false,
+          "sidebarDepth": 1,
+          "children": [
+            {
+              "title": "npm插件开发教程",
+              "path": "/guide/clis/npm.md"
             }
           ]
         }

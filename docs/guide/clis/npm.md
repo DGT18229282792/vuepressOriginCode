@@ -1,0 +1,196 @@
+前言：通常在vue的开发中，我们会使用到各式各样的插件库，比如说最常见的elementUI、vant等。通常我们只会使用这些插件，却不知道其中的原理。现在我来记录一下，从0到1开发一个简单的插件，然后再发布到npm官网开源的整个过程。以后有时间的时候，可以通过这种方式开发出更多的插件，从而提高工作和开发的效率。
+
+源码：[DGT的自定义插件](https://github.com/DGT18229282792/npm-auto-loader)
+
+首先，通过脚手架vue create 创建一个基本的vue结构的框架项目，用来专门存放你所开发的插件库（如果你在现有的项目中去进行插件的发布可能会导致影响到原来的项目的功能）。
+
+在src目录下创建plugins文件夹用来存放你所开发的插件
+
+![图片](data:image/png;base64,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)
+
+
+创建基本的组件，这个你可以自定义，随意写一个组件，这里以一个vue项目中最常见的提示框组件为例。
+
+![图片](data:image/png;base64,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)
+
+
+dgtmessage.vue:
+
+```typescript
+<template>
+  <div ref="messageVueRef" class="messageVue" :class="{isShowActive:showStatus}">
+      这是通知消息
+  </div>
+</template>
+
+<script>
+export default {
+    name:'dgt-message',
+    data(){
+        return{
+            showStatus:false,
+        }
+    },
+    methods:{
+        MessageFun(isShow=false){
+            this.showStatus = isShow
+            setTimeout(()=>{
+                this.showStatus = false
+            },2000)
+        }
+    }
+}
+</script>
+
+<style>
+.messageVue{
+    display: none;
+    width: 150px;
+    height: 30px;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.isShowActive{
+    display: block;
+     background: rgba(0,0,0,0.8);
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+</style>
+```
+
+这里实现的功能很简单，抛出了一个方法，接收显示和隐藏来控制组件的显示和隐藏。
+
+目录下新建index.js，用来编写你的install入口方法，这个文件会自动读取当前plugins文件下所有的vue后缀结尾的组件，进行自动注册。所以不需要像传统的组件一个一个进行注册，做到了自动识别。
+
+index.js:
+
+```typescript
+const requireComponent = require.context('./', true, /\.vue$/);
+// require提供的一个读取文件的方法，第一个参数是路径，第二个参数是是否读取所有子目录，第三个是正则以vue结尾的文件
+// 必须要提供一个install方法，这个方法用作在Vue.use方法里面自动识别install方法并执行。传入的参数是Vue
+const install = (Vue) => {
+    if (install.installed) return;
+// 如果有注册过则返回
+    install.installed;
+// 没有注册过则进行注册
+    console.log(requireComponent.keys())
+// 获取拿到的所有组件
+    requireComponent.keys().forEach(fileName => {
+        // 拿到当前的组件
+        const config = requireComponent(fileName)
+        // 拿到当前组件的组件名
+        const componentName = config.default || config
+        Vue.component(componentName.name, config.default || config)
+    });
+}
+// 环境检测
+if (typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue)
+}
+export default {
+    install
+}
+```
+
+修改package.json
+
+```typescript
+ {"name": "dgt-message",
+  "version": "0.1.0",
+  "private": false,
+  "description": "一个简易的弹窗插件，用来讲述npm插件的开发与上传",
+  "license": "MIT",
+  "main": "lib/dgt-message.umd.min.js", // 先不写
+  .
+  .
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name dgt-message --dest lib src/plugins/index.js"
+  },// 补充lib打包指令，指定名称dgt-message,目标路径lib 为插件的入口js
+```
+这里有几个需要注意的点，name属性必须跟组件提供的name值一致，version指定版本号，默认的private都是true，需要修改成false。license这里选择的是‘’MIT‘’main最后再进行指定。
+然后在终端运行
+
+```typescript
+npm run lib //打包
+```
+然后会在根目录下生成一个lib文件
+![图片](data:image/png;base64,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)
+
+
+这里需要注意两个文件，第一个是dgt-message.css，这个文件需要在main.js中手动引入。
+
+dgt-message.umd.min.js这个文件需要补充上面那个 "main": "lib/dgt-message.umd.min.js"
+
+最后一步
+
+```typescript
+
+npm login // 登录到npm官网
+// 输入账号，密码，邮箱
+npm publish
+```
+
+最后登录到你的npm主页，你就会发现多了一个刚刚上传的插件。
+
+
+
+
+
+使用的时候，跟其他的插件使用方式一致，当你开发的是一个UI组件，你需要引入插件，并引入插件的样式文件
+
+当你开发的是一个指令，或者没有样式文件则仅引入插件即可。
+
+```typescript
+import dgtMessagr from 'dgt-message'
+import 'dgt-message/lib/dgt-message.css';
+Vue.use(dgtMessagr)
+
+```
+项目中
+```typescript
+<template>
+  <div class="hello">
+    <button @click="testPop">测试</button>
+    <dgt-message ref="messageRef"></dgt-message>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'HelloWorld',
+  props: {
+    msg: String
+  },
+  methods:{
+    testPop(){
+      console.log(this.$refs.messageRef)
+      this.$refs.messageRef.MessageFun('shimie')
+    }
+  }
+}
+</script>
+```
+
+到此，一个完整的插件开发流程已经全部完成。通过这种方式，你还可以在index.js里面不仅仅是进行组件的注册，还可以开发一些自定义的指令。后面会继续补充这一块。
+
+2022/4/13 DGT
+

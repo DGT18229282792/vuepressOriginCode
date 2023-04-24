@@ -14,11 +14,34 @@ module.exports = {
             '/': [
                 {
                     title: 'plugins',
-                    collapsable: true, //是否折叠
+                    collapsable: false, //是否折叠
                     children: [
                         {
                             title: '前端监控埋点实践',
                             path: '/guide/utils/sdk.md',
+                        }
+
+                    ],
+                },
+                {
+                    title: '脚手架',
+                    collapsable: false, //是否折叠
+                    children: [
+                        {
+                            title: '一个简易的脚手架',
+                            path: '/guide/clis/DGT-cli.md',
+                        }
+
+                    ],
+                },
+                {
+                    title: 'npm插件',
+                    collapsable: false, //是否折叠
+                    sidebarDepth: 1,
+                    children: [
+                        {
+                            title: 'npm插件开发教程',
+                            path: '/guide/clis/npm.md',
                         }
 
                     ],
