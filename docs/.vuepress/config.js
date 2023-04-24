@@ -16,8 +16,8 @@ module.exports = {
                     collapsable: true, //是否折叠
                     children: [
                         {
-                            title: '去掉全部console',
-                            path: '/guide/1.md',
+                            title: '前端监控埋点实践',
+                            path: '/guide/utils/sdk.md',
                         }
 
                     ],

@@ -8,6 +8,16 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "Hello 1",
+      "frontmatter": {},
+      "regularPath": "/guide/1.html",
+      "relativePath": "guide/1.md",
+      "key": "v-16f39a64",
+      "path": "/guide/1.html",
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
+    },
+    {
       "frontmatter": {
         "sidebarDepth": 1
       },
@@ -17,6 +27,13 @@ export const siteData = {
       "path": "/",
       "lastUpdated": "4/23/2023, 4:33:55 PM",
       "lastUpdatedTimestamp": 1682238835000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/utils/sdk.html",
+      "relativePath": "guide/utils/sdk.md",
+      "key": "v-6304fdf7",
+      "path": "/guide/utils/sdk.html"
     },
     {
       "title": "积累的工具",
@@ -35,16 +52,6 @@ export const siteData = {
           "slug": "积累的工具"
         }
       ],
-      "lastUpdated": "4/23/2023, 4:33:55 PM",
-      "lastUpdatedTimestamp": 1682238835000
-    },
-    {
-      "title": "Hello 1",
-      "frontmatter": {},
-      "regularPath": "/guide/1.html",
-      "relativePath": "guide/1.md",
-      "key": "v-16f39a64",
-      "path": "/guide/1.html",
       "lastUpdated": "4/23/2023, 4:33:55 PM",
       "lastUpdatedTimestamp": 1682238835000
     },
@@ -99,8 +106,8 @@ export const siteData = {
           "slug": "个人账号"
         }
       ],
-      "lastUpdated": "4/23/2023, 4:33:55 PM",
-      "lastUpdatedTimestamp": 1682238835000
+      "lastUpdated": "4/23/2023, 5:02:05 PM",
+      "lastUpdatedTimestamp": 1682240525000
     }
   ],
   "themeConfig": {
@@ -126,8 +133,8 @@ export const siteData = {
           "collapsable": true,
           "children": [
             {
-              "title": "去掉全部console",
-              "path": "/guide/1.md"
+              "title": "前端监控埋点实践",
+              "path": "/guide/utils/sdk.md"
             }
           ]
         }
