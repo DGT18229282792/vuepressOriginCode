@@ -8,23 +8,13 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "Hello 1",
-      "frontmatter": {},
-      "regularPath": "/guide/1.html",
-      "relativePath": "guide/1.md",
-      "key": "v-16f39a64",
-      "path": "/guide/1.html",
-      "lastUpdated": "4/23/2023, 4:33:55 PM",
-      "lastUpdatedTimestamp": 1682238835000
-    },
-    {
       "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-b2589aac",
       "path": "/",
-      "lastUpdated": "4/24/2023, 3:53:16 PM",
-      "lastUpdatedTimestamp": 1682322796000
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
     },
     {
       "title": "Hello 2",
@@ -35,6 +25,15 @@ export const siteData = {
       "path": "/guide/2.html",
       "lastUpdated": "4/23/2023, 4:33:55 PM",
       "lastUpdatedTimestamp": 1682238835000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/clis/DGT-cli.html",
+      "relativePath": "guide/clis/DGT-cli.md",
+      "key": "v-0bb22a87",
+      "path": "/guide/clis/DGT-cli.html",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
     },
     {
       "frontmatter": {
@@ -63,13 +62,13 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "广州欣纬智慧安全科技有限公司（ 2019年10月 ~ 2022年4月）",
-          "slug": "广州欣纬智慧安全科技有限公司-2019年10月-2022年4月"
+          "title": "中电万维信息技术有限公司（ 2022年5月 ~ 2023年6月）",
+          "slug": "中电万维信息技术有限公司-2022年5月-2023年6月"
         },
         {
           "level": 3,
-          "title": "深圳涌浪网络科技有限公司 （ 2018年10月 ~ 2019年9月 ）",
-          "slug": "深圳涌浪网络科技有限公司-2018年10月-2019年9月"
+          "title": "广州欣纬智慧安全科技有限公司（ 2019年10月 ~ 2022年4月）",
+          "slug": "广州欣纬智慧安全科技有限公司-2019年10月-2022年4月"
         },
         {
           "level": 2,
@@ -77,24 +76,27 @@ export const siteData = {
           "slug": "个人账号"
         }
       ],
-      "lastUpdated": "4/24/2023, 3:53:16 PM",
-      "lastUpdatedTimestamp": 1682322796000
+      "lastUpdated": "4/28/2023, 11:14:53 PM",
+      "lastUpdatedTimestamp": 1682694893000
+    },
+    {
+      "title": "Hello 1",
+      "frontmatter": {},
+      "regularPath": "/guide/1.html",
+      "relativePath": "guide/1.md",
+      "key": "v-16f39a64",
+      "path": "/guide/1.html",
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
     },
     {
       "frontmatter": {},
-      "regularPath": "/guide/utils/sdk.html",
-      "relativePath": "guide/utils/sdk.md",
-      "key": "v-6304fdf7",
-      "path": "/guide/utils/sdk.html",
-      "lastUpdated": "4/24/2023, 3:37:50 PM",
-      "lastUpdatedTimestamp": 1682321870000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/info/intro.html",
-      "relativePath": "guide/info/intro.md",
-      "key": "v-4a7eaffe",
-      "path": "/guide/info/intro.html"
+      "regularPath": "/guide/clis/npm.html",
+      "relativePath": "guide/clis/npm.md",
+      "key": "v-7fd140b9",
+      "path": "/guide/clis/npm.html",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
     },
     {
       "title": "积累的工具",
@@ -121,21 +123,34 @@ export const siteData = {
       "regularPath": "/guide/utils/",
       "relativePath": "guide/utils/index.md",
       "key": "v-8c7f1620",
-      "path": "/guide/utils/"
+      "path": "/guide/utils/",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
     },
     {
       "frontmatter": {},
-      "regularPath": "/guide/clis/DGT-cli.html",
-      "relativePath": "guide/clis/DGT-cli.md",
-      "key": "v-0bb22a87",
-      "path": "/guide/clis/DGT-cli.html"
+      "regularPath": "/guide/info/intro.html",
+      "relativePath": "guide/info/intro.md",
+      "key": "v-4a7eaffe",
+      "path": "/guide/info/intro.html",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
     },
     {
       "frontmatter": {},
-      "regularPath": "/guide/clis/npm.html",
-      "relativePath": "guide/clis/npm.md",
-      "key": "v-7fd140b9",
-      "path": "/guide/clis/npm.html"
+      "regularPath": "/guide/webpack/loaders/cacheloader.html",
+      "relativePath": "guide/webpack/loaders/cacheloader.md",
+      "key": "v-53e2b2ea",
+      "path": "/guide/webpack/loaders/cacheloader.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/utils/sdk.html",
+      "relativePath": "guide/utils/sdk.md",
+      "key": "v-6304fdf7",
+      "path": "/guide/utils/sdk.html",
+      "lastUpdated": "4/24/2023, 3:37:50 PM",
+      "lastUpdatedTimestamp": 1682321870000
     }
   ],
   "themeConfig": {
@@ -184,6 +199,26 @@ export const siteData = {
           "children": [
             {
               "title": "npm插件开发教程",
+              "path": "/guide/clis/npm.md"
+            }
+          ]
+        },
+        {
+          "title": "webpack",
+          "collapsable": true,
+          "children": [
+            {
+              "title": "webpack-loader",
+              "collapsable": true,
+              "children": [
+                {
+                  "title": "cacheloader",
+                  "path": "/guide/webpack/loaders/cacheloader.md"
+                }
+              ]
+            },
+            {
+              "title": "webpack-plugin",
               "path": "/guide/clis/npm.md"
             }
           ]

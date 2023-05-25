@@ -23,13 +23,12 @@ sidebar: auto
 
 * Web框架：Vue2技术栈(vue2+webpack+vuex)、Vue3.0技术栈(vue3+vite+pinia+ts)
 * 语言：Typescript、Es5、Es6、HTML5、CSS3
-* UI框架：element、element plus、移动端vant、vux框架、echartsJs图表框架、antd-of-vue
-* 前端工具：sass/less、stylus、websocket、X6
+* UI框架：element、element plus、移动端vant、vux框架、echartsJs图表框架、antd-of-vue、antV的X6图形化库
+* 前端工具：sass/less、stylus、websocket
 * 地图能力：SuperMap、高德地图、天地图、Cesium 3D
 * 版本管理、文档和自动化部署工具：Svn/Git/vuepress
 * 英语能力：CET-4级证书，能熟练阅读相关英文文档
-* 其他：使用过wepy+weui开发过小程序、熟悉uniapp开发跨端小程序。熟练使用SuperMap、
-  百度、高德等地图的功能开发、具有函数编程思想、熟悉通用组件的封装思想。
+* 其他：熟悉原生微信小程序开发，使用过wepy+weui开发过小程序、熟悉uniapp开发跨端小程序。具有函数编程思想、熟悉通用组件的封装思想。
 
 
 ## 工作经历
@@ -68,7 +67,7 @@ sidebar: auto
 
 ## 个人账号 
 
-* 掘金  https://juejin.cn/user/993614243562183 会写文章记录新学到的技术
+* 掘金  https://juejin.cn/user/993614243562183 
 
 * github https://github.com/DGT18229282792 
 

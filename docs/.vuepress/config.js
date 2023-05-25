@@ -45,6 +45,28 @@ module.exports = {
                         }
 
                     ],
+                },
+                {
+                    title: 'webpack',
+                    collapsable: true, //是否折叠
+                    children: [
+                        {
+                            title: 'webpack-loader',
+                            collapsable: true, //是否折叠
+                            children: [
+                                {
+                                    title: 'cacheloader',
+                                    path: '/guide/webpack/loaders/cacheloader.md',
+                                }
+                            ]
+                            
+                        },
+                        {
+                            title: 'webpack-plugin',
+                            path: '/guide/clis/npm.md',
+                        }
+
+                    ],
                 }
             ],
             '/guide/utils/utils/': [
