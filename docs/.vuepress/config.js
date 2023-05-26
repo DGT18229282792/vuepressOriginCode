@@ -7,7 +7,8 @@ module.exports = {
         sidebarDepth: 2,
         nav: [
             { text: '首页', link: '/' },
-            { text: '个人简历', link: '/guide/info/resume/' },
+            { text: '个人简历v1', link: '/guide/info/resume/' },
+            { text: '个人简历v2', link: '/guide/info/resumeNew/' },
             { text: 'Utils工具类', link: '/guide/utils/utils/' },
         ],
         sidebar: {

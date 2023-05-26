@@ -17,6 +17,16 @@ export const siteData = {
       "lastUpdatedTimestamp": 1682334181000
     },
     {
+      "title": "Hello 1",
+      "frontmatter": {},
+      "regularPath": "/guide/1.html",
+      "relativePath": "guide/1.md",
+      "key": "v-16f39a64",
+      "path": "/guide/1.html",
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
+    },
+    {
       "title": "Hello 2",
       "frontmatter": {},
       "regularPath": "/guide/2.html",
@@ -32,6 +42,95 @@ export const siteData = {
       "relativePath": "guide/clis/DGT-cli.md",
       "key": "v-0bb22a87",
       "path": "/guide/clis/DGT-cli.html",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/info/intro.html",
+      "relativePath": "guide/info/intro.md",
+      "key": "v-4a7eaffe",
+      "path": "/guide/info/intro.html",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/clis/npm.html",
+      "relativePath": "guide/clis/npm.md",
+      "key": "v-7fd140b9",
+      "path": "/guide/clis/npm.html",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
+    },
+    {
+      "frontmatter": {
+        "sidebarDepth": "2,",
+        "sidebar": "auto"
+      },
+      "regularPath": "/guide/info/resumeNew.html",
+      "relativePath": "guide/info/resumeNew.md",
+      "key": "v-09f4e39a",
+      "path": "/guide/info/resumeNew.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "个人信息",
+          "slug": "个人信息"
+        },
+        {
+          "level": 2,
+          "title": "技能清单",
+          "slug": "技能清单"
+        },
+        {
+          "level": 2,
+          "title": "工作经历",
+          "slug": "工作经历"
+        },
+        {
+          "level": 3,
+          "title": "中电万维信息技术有限公司（ 2022年5月 ~ 2023年6月）",
+          "slug": "中电万维信息技术有限公司-2022年5月-2023年6月"
+        },
+        {
+          "level": 3,
+          "title": "广州欣纬智慧安全科技有限公司（ 2019年10月 ~ 2022年4月）",
+          "slug": "广州欣纬智慧安全科技有限公司-2019年10月-2022年4月"
+        },
+        {
+          "level": 2,
+          "title": "个人账号",
+          "slug": "个人账号"
+        }
+      ]
+    },
+    {
+      "title": "积累的工具",
+      "frontmatter": {
+        "sidebarDepth": "1,",
+        "sidebar": "auto"
+      },
+      "regularPath": "/guide/utils/utils.html",
+      "relativePath": "guide/utils/utils.md",
+      "key": "v-e4588252",
+      "path": "/guide/utils/utils.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "积累的工具",
+          "slug": "积累的工具"
+        }
+      ],
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/utils/",
+      "relativePath": "guide/utils/index.md",
+      "key": "v-8c7f1620",
+      "path": "/guide/utils/",
       "lastUpdated": "4/24/2023, 7:03:01 PM",
       "lastUpdatedTimestamp": 1682334181000
     },
@@ -76,72 +175,8 @@ export const siteData = {
           "slug": "个人账号"
         }
       ],
-      "lastUpdated": "4/28/2023, 11:14:53 PM",
-      "lastUpdatedTimestamp": 1682694893000
-    },
-    {
-      "title": "Hello 1",
-      "frontmatter": {},
-      "regularPath": "/guide/1.html",
-      "relativePath": "guide/1.md",
-      "key": "v-16f39a64",
-      "path": "/guide/1.html",
-      "lastUpdated": "4/23/2023, 4:33:55 PM",
-      "lastUpdatedTimestamp": 1682238835000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/clis/npm.html",
-      "relativePath": "guide/clis/npm.md",
-      "key": "v-7fd140b9",
-      "path": "/guide/clis/npm.html",
-      "lastUpdated": "4/24/2023, 7:03:01 PM",
-      "lastUpdatedTimestamp": 1682334181000
-    },
-    {
-      "title": "积累的工具",
-      "frontmatter": {
-        "sidebarDepth": "1,",
-        "sidebar": "auto"
-      },
-      "regularPath": "/guide/utils/utils.html",
-      "relativePath": "guide/utils/utils.md",
-      "key": "v-e4588252",
-      "path": "/guide/utils/utils.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "积累的工具",
-          "slug": "积累的工具"
-        }
-      ],
-      "lastUpdated": "4/23/2023, 4:33:55 PM",
-      "lastUpdatedTimestamp": 1682238835000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/utils/",
-      "relativePath": "guide/utils/index.md",
-      "key": "v-8c7f1620",
-      "path": "/guide/utils/",
-      "lastUpdated": "4/24/2023, 7:03:01 PM",
-      "lastUpdatedTimestamp": 1682334181000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/info/intro.html",
-      "relativePath": "guide/info/intro.md",
-      "key": "v-4a7eaffe",
-      "path": "/guide/info/intro.html",
-      "lastUpdated": "4/24/2023, 7:03:01 PM",
-      "lastUpdatedTimestamp": 1682334181000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/webpack/loaders/cacheloader.html",
-      "relativePath": "guide/webpack/loaders/cacheloader.md",
-      "key": "v-53e2b2ea",
-      "path": "/guide/webpack/loaders/cacheloader.html"
+      "lastUpdated": "5/25/2023, 10:31:09 AM",
+      "lastUpdatedTimestamp": 1684981869000
     },
     {
       "frontmatter": {},
@@ -151,6 +186,15 @@ export const siteData = {
       "path": "/guide/utils/sdk.html",
       "lastUpdated": "4/24/2023, 3:37:50 PM",
       "lastUpdatedTimestamp": 1682321870000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/webpack/loaders/cacheloader.html",
+      "relativePath": "guide/webpack/loaders/cacheloader.md",
+      "key": "v-53e2b2ea",
+      "path": "/guide/webpack/loaders/cacheloader.html",
+      "lastUpdated": "5/25/2023, 10:31:09 AM",
+      "lastUpdatedTimestamp": 1684981869000
     }
   ],
   "themeConfig": {
@@ -162,8 +206,12 @@ export const siteData = {
         "link": "/"
       },
       {
-        "text": "个人简历",
+        "text": "个人简历v1",
         "link": "/guide/info/resume/"
+      },
+      {
+        "text": "个人简历v2",
+        "link": "/guide/info/resumeNew/"
       },
       {
         "text": "Utils工具类",

@@ -21,6 +21,14 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-16f39a64",
+    path: "/guide/1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-16f39a64").then(next)
+    },
+  },
+  {
     name: "v-69525104",
     path: "/guide/2.html",
     component: GlobalLayout,
@@ -37,19 +45,11 @@ export const routes = [
     },
   },
   {
-    name: "v-7161141e",
-    path: "/guide/info/resume.html",
+    name: "v-4a7eaffe",
+    path: "/guide/info/intro.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7161141e").then(next)
-    },
-  },
-  {
-    name: "v-16f39a64",
-    path: "/guide/1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-16f39a64").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4a7eaffe").then(next)
     },
   },
   {
@@ -58,6 +58,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7fd140b9").then(next)
+    },
+  },
+  {
+    name: "v-09f4e39a",
+    path: "/guide/info/resumeNew.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-09f4e39a").then(next)
     },
   },
   {
@@ -81,19 +89,11 @@ export const routes = [
     redirect: "/guide/utils/"
   },
   {
-    name: "v-4a7eaffe",
-    path: "/guide/info/intro.html",
+    name: "v-7161141e",
+    path: "/guide/info/resume.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4a7eaffe").then(next)
-    },
-  },
-  {
-    name: "v-53e2b2ea",
-    path: "/guide/webpack/loaders/cacheloader.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-53e2b2ea").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7161141e").then(next)
     },
   },
   {
@@ -102,6 +102,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6304fdf7").then(next)
+    },
+  },
+  {
+    name: "v-53e2b2ea",
+    path: "/guide/webpack/loaders/cacheloader.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-53e2b2ea").then(next)
     },
   },
   {
