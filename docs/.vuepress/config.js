@@ -15,7 +15,7 @@ module.exports = {
             '/': [
                 {
                     title: 'plugins',
-                    collapsable: false, //是否折叠
+                    collapsable: true, //是否折叠
                     children: [
                         {
                             title: '前端监控埋点实践',
@@ -26,7 +26,7 @@ module.exports = {
                 },
                 {
                     title: '脚手架',
-                    collapsable: false, //是否折叠
+                    collapsable: true, //是否折叠
                     children: [
                         {
                             title: '一个简易的脚手架',
@@ -37,7 +37,7 @@ module.exports = {
                 },
                 {
                     title: 'npm插件',
-                    collapsable: false, //是否折叠
+                    collapsable: true, //是否折叠
                     sidebarDepth: 1,
                     children: [
                         {
@@ -68,7 +68,19 @@ module.exports = {
                         }
 
                     ],
-                }
+                },
+                {
+                    title: '前端性能优化',
+                    collapsable: true, //是否折叠
+                    sidebarDepth: 1,
+                    children: [
+                        {
+                            title: '网络优化',
+                            path: '/guide/performanceOptimization/network.md',
+                        }
+
+                    ],
+                },
             ],
             '/guide/utils/utils/': [
                 {
