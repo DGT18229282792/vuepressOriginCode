@@ -8,25 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "frontmatter": {},
-      "regularPath": "/guide/clis/DGT-cli.html",
-      "relativePath": "guide/clis/DGT-cli.md",
-      "key": "v-0bb22a87",
-      "path": "/guide/clis/DGT-cli.html",
-      "lastUpdated": "4/24/2023, 7:03:01 PM",
-      "lastUpdatedTimestamp": 1682334181000
-    },
-    {
-      "title": "Hello 2",
-      "frontmatter": {},
-      "regularPath": "/guide/2.html",
-      "relativePath": "guide/2.md",
-      "key": "v-69525104",
-      "path": "/guide/2.html",
-      "lastUpdated": "4/23/2023, 4:33:55 PM",
-      "lastUpdatedTimestamp": 1682238835000
-    },
-    {
       "title": "Hello 1",
       "frontmatter": {},
       "regularPath": "/guide/1.html",
@@ -38,19 +19,35 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/guide/info/intro.html",
-      "relativePath": "guide/info/intro.md",
-      "key": "v-4a7eaffe",
-      "path": "/guide/info/intro.html",
+      "regularPath": "/guide/clis/npm.html",
+      "relativePath": "guide/clis/npm.md",
+      "key": "v-7fd140b9",
+      "path": "/guide/clis/npm.html",
       "lastUpdated": "4/24/2023, 7:03:01 PM",
       "lastUpdatedTimestamp": 1682334181000
     },
     {
       "frontmatter": {},
-      "regularPath": "/guide/clis/npm.html",
-      "relativePath": "guide/clis/npm.md",
-      "key": "v-7fd140b9",
-      "path": "/guide/clis/npm.html",
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-b2589aac",
+      "path": "/",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/d-ui/directives.html",
+      "relativePath": "guide/d-ui/directives.md",
+      "key": "v-42240471",
+      "path": "/guide/d-ui/directives.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/clis/DGT-cli.html",
+      "relativePath": "guide/clis/DGT-cli.md",
+      "key": "v-0bb22a87",
+      "path": "/guide/clis/DGT-cli.html",
       "lastUpdated": "4/24/2023, 7:03:01 PM",
       "lastUpdatedTimestamp": 1682334181000
     },
@@ -99,6 +96,33 @@ export const siteData = {
       "lastUpdatedTimestamp": 1684981869000
     },
     {
+      "frontmatter": {},
+      "regularPath": "/guide/utils/",
+      "relativePath": "guide/utils/index.md",
+      "key": "v-8c7f1620",
+      "path": "/guide/utils/",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/utils/sdk.html",
+      "relativePath": "guide/utils/sdk.md",
+      "key": "v-6304fdf7",
+      "path": "/guide/utils/sdk.html",
+      "lastUpdated": "4/24/2023, 3:37:50 PM",
+      "lastUpdatedTimestamp": 1682321870000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/info/intro.html",
+      "relativePath": "guide/info/intro.md",
+      "key": "v-4a7eaffe",
+      "path": "/guide/info/intro.html",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
+    },
+    {
       "frontmatter": {
         "sidebarDepth": "2,",
         "sidebar": "auto"
@@ -143,13 +167,14 @@ export const siteData = {
       "lastUpdatedTimestamp": 1685084292000
     },
     {
+      "title": "Hello 2",
       "frontmatter": {},
-      "regularPath": "/guide/utils/sdk.html",
-      "relativePath": "guide/utils/sdk.md",
-      "key": "v-6304fdf7",
-      "path": "/guide/utils/sdk.html",
-      "lastUpdated": "4/24/2023, 3:37:50 PM",
-      "lastUpdatedTimestamp": 1682321870000
+      "regularPath": "/guide/2.html",
+      "relativePath": "guide/2.md",
+      "key": "v-69525104",
+      "path": "/guide/2.html",
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
     },
     {
       "title": "积累的工具",
@@ -173,19 +198,12 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/guide/utils/",
-      "relativePath": "guide/utils/index.md",
-      "key": "v-8c7f1620",
-      "path": "/guide/utils/",
-      "lastUpdated": "4/24/2023, 7:03:01 PM",
-      "lastUpdatedTimestamp": 1682334181000
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/guide/performanceOptimization/network.html",
       "relativePath": "guide/performanceOptimization/network.md",
       "key": "v-47d12312",
-      "path": "/guide/performanceOptimization/network.html"
+      "path": "/guide/performanceOptimization/network.html",
+      "lastUpdated": "5/26/2023, 5:52:41 PM",
+      "lastUpdatedTimestamp": 1685094761000
     },
     {
       "frontmatter": {},
@@ -195,15 +213,6 @@ export const siteData = {
       "path": "/guide/webpack/loaders/cacheloader.html",
       "lastUpdated": "5/25/2023, 10:31:09 AM",
       "lastUpdatedTimestamp": 1684981869000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-b2589aac",
-      "path": "/",
-      "lastUpdated": "4/24/2023, 7:03:01 PM",
-      "lastUpdatedTimestamp": 1682334181000
     }
   ],
   "themeConfig": {
@@ -257,6 +266,10 @@ export const siteData = {
             {
               "title": "npm插件开发教程",
               "path": "/guide/clis/npm.md"
+            },
+            {
+              "title": "指令库开发教程",
+              "path": "/guide/d-ui/directives.md"
             }
           ]
         },

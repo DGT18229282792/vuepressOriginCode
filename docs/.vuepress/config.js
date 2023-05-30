@@ -43,6 +43,10 @@ module.exports = {
                         {
                             title: 'npm插件开发教程',
                             path: '/guide/clis/npm.md',
+                        },
+                        {
+                            title: '指令库开发教程',
+                            path: '/guide/d-ui/directives.md',
                         }
 
                     ],
