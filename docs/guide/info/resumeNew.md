@@ -21,7 +21,7 @@ sidebar: auto
 
 ## 技能清单
 
-* Web框架：Vue2技术栈(vue2+webpack+vuex)、Vue3.0技术栈(vue3+vite+pinia+ts)
+* Web框架：Vue2技术栈(vue2+webpack+vuex)、Vue3.0技术栈(vue3+vite+pinia+ts)、uniapp（unibest+Wot Design Uni）
 * 语言：Typescript、Es5、Es6、HTML5、CSS3
 * UI框架：element、element plus、移动端vant、vux框架、echartsJs图表框架、antd-of-vue、antV的X6图形化库
 * 前端工具：sass/less、stylus、websocket
