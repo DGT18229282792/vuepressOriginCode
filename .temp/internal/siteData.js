@@ -17,6 +17,16 @@ export const siteData = {
       "lastUpdatedTimestamp": 1682334181000
     },
     {
+      "title": "Hello 1",
+      "frontmatter": {},
+      "regularPath": "/guide/1.html",
+      "relativePath": "guide/1.md",
+      "key": "v-4457cd9e",
+      "path": "/guide/1.html",
+      "lastUpdated": "4/23/2023, 4:33:55 PM",
+      "lastUpdatedTimestamp": 1682238835000
+    },
+    {
       "title": "Hello 2",
       "frontmatter": {},
       "regularPath": "/guide/2.html",
@@ -37,10 +47,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/guide/clis/npm.html",
-      "relativePath": "guide/clis/npm.md",
-      "key": "v-9c9d5674",
-      "path": "/guide/clis/npm.html",
+      "regularPath": "/guide/info/intro.html",
+      "relativePath": "guide/info/intro.md",
+      "key": "v-372ded8e",
+      "path": "/guide/info/intro.html",
       "lastUpdated": "4/24/2023, 7:03:01 PM",
       "lastUpdatedTimestamp": 1682334181000
     },
@@ -87,6 +97,24 @@ export const siteData = {
       ],
       "lastUpdated": "5/25/2023, 10:31:09 AM",
       "lastUpdatedTimestamp": 1684981869000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/d-ui/directives.html",
+      "relativePath": "guide/d-ui/directives.md",
+      "key": "v-60757dbe",
+      "path": "/guide/d-ui/directives.html",
+      "lastUpdated": "5/30/2023, 5:53:14 PM",
+      "lastUpdatedTimestamp": 1685440394000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/clis/npm.html",
+      "relativePath": "guide/clis/npm.md",
+      "key": "v-9c9d5674",
+      "path": "/guide/clis/npm.html",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
     },
     {
       "frontmatter": {},
@@ -138,18 +166,8 @@ export const siteData = {
           "slug": "个人账号"
         }
       ],
-      "lastUpdated": "5/26/2023, 2:58:12 PM",
-      "lastUpdatedTimestamp": 1685084292000
-    },
-    {
-      "title": "Hello 1",
-      "frontmatter": {},
-      "regularPath": "/guide/1.html",
-      "relativePath": "guide/1.md",
-      "key": "v-4457cd9e",
-      "path": "/guide/1.html",
-      "lastUpdated": "4/23/2023, 4:33:55 PM",
-      "lastUpdatedTimestamp": 1682238835000
+      "lastUpdated": "1/14/2025, 4:53:32 PM",
+      "lastUpdatedTimestamp": 1736844812000
     },
     {
       "frontmatter": {},
@@ -182,24 +200,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/guide/utils/",
-      "relativePath": "guide/utils/index.md",
-      "key": "v-33be977d",
-      "path": "/guide/utils/",
-      "lastUpdated": "4/24/2023, 7:03:01 PM",
-      "lastUpdatedTimestamp": 1682334181000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/info/intro.html",
-      "relativePath": "guide/info/intro.md",
-      "key": "v-372ded8e",
-      "path": "/guide/info/intro.html",
-      "lastUpdated": "4/24/2023, 7:03:01 PM",
-      "lastUpdatedTimestamp": 1682334181000
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/guide/webpack/loaders/cacheloader.html",
       "relativePath": "guide/webpack/loaders/cacheloader.md",
       "key": "v-66205537",
@@ -209,12 +209,12 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/guide/d-ui/directives.html",
-      "relativePath": "guide/d-ui/directives.md",
-      "key": "v-60757dbe",
-      "path": "/guide/d-ui/directives.html",
-      "lastUpdated": "5/30/2023, 5:53:14 PM",
-      "lastUpdatedTimestamp": 1685440394000
+      "regularPath": "/guide/utils/",
+      "relativePath": "guide/utils/index.md",
+      "key": "v-33be977d",
+      "path": "/guide/utils/",
+      "lastUpdated": "4/24/2023, 7:03:01 PM",
+      "lastUpdatedTimestamp": 1682334181000
     }
   ],
   "themeConfig": {
@@ -319,6 +319,12 @@ export const siteData = {
           ]
         }
       ]
-    }
+    },
+    "logo": "/logo.jpg",
+    "colorMode": "dark",
+    "colorModeSwitch": true,
+    "search": true,
+    "searchMaxSuggestions": 10,
+    "smoothScroll": true
   }
 }

@@ -99,6 +99,12 @@ module.exports = {
                     ],
                 }
             ]
-        }
+        },
+        logo:'/logo.jpg',
+        colorMode:'dark',
+        colorModeSwitch:true,
+        search: true,
+        searchMaxSuggestions: 10,
+        smoothScroll: true
     }
 }
