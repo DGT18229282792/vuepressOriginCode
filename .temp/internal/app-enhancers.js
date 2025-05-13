@@ -1,6 +1,6 @@
 import m0 from "C:\\studyspace\\vuepressOriginCode\\.temp\\app-enhancers\\0.js"
 import m1 from "C:\\studyspace\\vuepressOriginCode\\.temp\\app-enhancers\\data-block.js"
-import m2 from "C:\\studyspace\\vuepressOriginCode\\.temp\\app-enhancers\\global-components-9.js"
+import m2 from "C:\\studyspace\\vuepressOriginCode\\.temp\\app-enhancers\\global-components-1.js"
 import m3 from "C:\\studyspace\\vuepressOriginCode\\.temp\\app-enhancers\\1.js"
 import m4 from "C:\\studyspace\\vuepressOriginCode\\.temp\\app-enhancers\\2.js"
 
